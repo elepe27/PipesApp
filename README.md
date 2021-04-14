@@ -15,6 +15,9 @@ Importamos al modulo `app.module.ts` el `ButtonModule`, y podemos utilizar la va
 Primero debemos volver a importar nuestro modulo en este caso el `CardModule` para podemos utilizar los tag propiamente de `PrimeNg`, luego para utilizar los iconos, debemos definir la palabra `icon` y `iconPos` uno es para indicar cual icono queremos cargar, y el otro para la posición, en este caso el `pi pi-icon-check` y la posición `right`.
 
 ## PrimeNg Module 14/04/2021
-Crearemos un modulo para unificar nuestros componentes de primeNg
+Crearemos un modulo para unificar nuestros componentes de primeNg.
+
+## PrimeNG MenuBar 14/04/2021
+
 
 
