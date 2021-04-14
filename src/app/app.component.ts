@@ -13,7 +13,5 @@ export class AppComponent {
     nombre : 'esTeban eDuaRdo lEpE CaStRo'
   }
   mostrarNombre(){
-    console.log(this.nombre);
-    console.log(this.valor);
   }
 }
