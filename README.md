@@ -18,6 +18,11 @@ Primero debemos volver a importar nuestro modulo en este caso el `CardModule` pa
 Crearemos un modulo para unificar nuestros componentes de primeNg.
 
 ## PrimeNG MenuBar 14/04/2021
+Primero creamos nuestra estrcutura en la aplicación, junto a la importación del `MenuBarModule` en nuestro modulo personalizados `PrimeNgModule` y este lo podemos importar luego en nuestro modulo `sharedModule` y no necesitamos importarlo en el `appModule` esto ya que solo lo usaremos en la parte de los shared por el momento.
 
+## Rutas de nuestra aplicación 14/04/2021
+Primero creamos nuestro archivo de rutas con el comando `ng g m appRouter --flat` el --flat es para no crear una carpeta. Esto se creara en la raìz de los archivos, en el debemos importar en la parte de los imports la palabra `RouterModule.forRoot()`y para que pueda ser utilizado de manera global debemos agregarlo tambíen en la parte de los `exports` creamos una constante llamada `routes: Routes[{}]` importando routes desde `@angular/routes` y definimos nuestros path de la aplicación con sus componentes asociados y finalmente agregamos la constante routes al `RouterModule.forRoot(routes)` en el `app.module` importamos nuestro `AppRouterModule` para que pueda ser utilizado.
+
+![ArchivoRoutes](https://i.ibb.co/QF8STb6/archivo-Routes.png)
 
 
