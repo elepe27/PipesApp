@@ -10,7 +10,7 @@ import { OrdenarComponent } from './ventas/pages/ordenar/ordenar.component';
 const routes: Routes = [
   {
     path: '',
-    component:BasicosComponent,
+    component:BasicosComponent, 
     pathMatch:'full'
   },
   {

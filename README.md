@@ -25,4 +25,8 @@ Primero creamos nuestro archivo de rutas con el comando `ng g m appRouter --flat
 
 ![ArchivoRoutes](https://i.ibb.co/QF8STb6/archivo-Routes.png)
 
+## Cambiar las rutas utilizando el MenuBar 15/04/2021
+Para poder definir las rutas, debemos modificar en el `menu.component.ts` en el arreglo de items, el cual se debe ir creando los items por separado, de la siguiente manera.
+Y se debe colocar la opción `routerLink` para poder hacer la navegación como la definimos en nuestro `app-router.module.ts`
 
+![MenuBarEditionItem](https://i.ibb.co/wzLy16g/Menu-Bar-Edition-Item.png)
