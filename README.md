@@ -39,4 +39,10 @@ Primero debemos instalar PrimeFlex con NPM y modificar las rutas del estilo en e
  ![PipesBasicos](https://i.ibb.co/wKxz6cg/busquedaresult1.png)
 
  ## DatePipe 15/04/2021
- 
+ Date sirve para modificar el valor que nos entrega la fecha, ya sea se puede definir como se muestra en la documentación o personalizando dependiendo de los caracteres que vamos a ir colocando, adicionalmente podemos cambiar el idioma.
+
+ ## Cambiar fecha por defecto 15/04/2021
+ Para cambiar el idioma de manera local debemos importar el lenguaje de la siguiente manera `import localeEs from "@angular/common/locales/es-CL";` e importar la siguiente función `import { registerLocaleData } from "@angular/common";` y en el mismo modulo `registerLocaleData(localeEs);` y finalmente para que lo use de manera global usamos la siguiente linea en los `providers`
+ `{provide: LOCALE_ID, useValue: 'es-CL'}`
+
+ ![CambiarIdiomaLocal](https://i.ibb.co/LgSkMPf/Cambiar-Idioma-Local.png)
