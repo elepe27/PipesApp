@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class BasicosComponent implements OnInit {
+export class BasicosComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  nombreLower : string ='esteban';
+  nombreUpper : string ='ESTEBAN';
+  nombreCompleto : string ='eStEbAn EdUaRdO lEpE cAsTrO';
+  
 
 }

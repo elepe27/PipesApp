@@ -33,3 +33,7 @@ Y se debe colocar la opción `routerLink` para poder hacer la navegación como l
 
 ## PrimeFlex 15/04/2021
 Primero debemos instalar PrimeFlex con NPM y modificar las rutas del estilo en el archivo `angular.json`, posteriormente en el modulo de ventas debemos importar nuestro `PrimeNg` el cual cuenta con el `CardModule` instalado, luego debemos importar el `ventas.module.ts` a nuestro `app.module.ts`.
+
+## UpperCase, LowerCase y TitleCase pipes 15/04/2021
+ 
+ ![PipesBasicos](https://i.ibb.co/wKxz6cg/busquedaresult1.png)
