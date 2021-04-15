@@ -37,3 +37,6 @@ Primero debemos instalar PrimeFlex con NPM y modificar las rutas del estilo en e
 ## UpperCase, LowerCase y TitleCase pipes 15/04/2021
  
  ![PipesBasicos](https://i.ibb.co/wKxz6cg/busquedaresult1.png)
+
+ ## DatePipe 15/04/2021
+ 
