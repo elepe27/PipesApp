@@ -30,3 +30,6 @@ Para poder definir las rutas, debemos modificar en el `menu.component.ts` en el 
 Y se debe colocar la opción `routerLink` para poder hacer la navegación como la definimos en nuestro `app-router.module.ts`
 
 ![MenuBarEditionItem](https://i.ibb.co/wzLy16g/Menu-Bar-Edition-Item.png)
+
+## PrimeFlex 15/04/2021
+Primero debemos instalar PrimeFlex con NPM y modificar las rutas del estilo en el archivo `angular.json`, posteriormente en el modulo de ventas debemos importar nuestro `PrimeNg` el cual cuenta con el `CardModule` instalado, luego debemos importar el `ventas.module.ts` a nuestro `app.module.ts`.
