@@ -9,7 +9,7 @@ import { SharedModule } from './shared/shared.module';
 import { VentasModule } from './ventas/ventas.module';
 
 // cambiar el locale de la app
-
+// comentarios de prueba
 import localeEs from "@angular/common/locales/es-CL";
 import { registerLocaleData } from "@angular/common";
 
