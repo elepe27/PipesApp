@@ -12,6 +12,7 @@ import { VentasModule } from './ventas/ventas.module';
 // comentarios de prueba
 // modificacion modulo nuevo
 // de main a branch
+// prueba 2
 import localeEs from "@angular/common/locales/es-CL";
 import { registerLocaleData } from "@angular/common";
 
