@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 
 
-<<<<<<< HEAD
 //branch main commit
-=======
-//Probando cambios en branch
-
->>>>>>> develop
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
