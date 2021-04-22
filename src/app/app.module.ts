@@ -11,6 +11,7 @@ import { VentasModule } from './ventas/ventas.module';
 // cambiar el locale de la app
 // comentarios de prueba
 // modificacion modulo nuevo
+// de main a branch
 import localeEs from "@angular/common/locales/es-CL";
 import { registerLocaleData } from "@angular/common";
 
