@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 
 //Probando cambios en branch
+//prueba de branch 2
 
 @Component({
   selector: 'app-root',
