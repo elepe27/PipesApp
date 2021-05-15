@@ -46,3 +46,6 @@ Primero debemos instalar PrimeFlex con NPM y modificar las rutas del estilo en e
  `{provide: LOCALE_ID, useValue: 'es-CL'}`
 
  ![CambiarIdiomaLocal](https://i.ibb.co/LgSkMPf/Cambiar-Idioma-Local.png)
+
+ ## Nota desde lenovo nuevo
+ >Elementary os
